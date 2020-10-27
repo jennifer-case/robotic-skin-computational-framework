@@ -1,0 +1,34 @@
+﻿  actuator.cpp
+  cylindricalStructure.cpp
+  endcap.cpp
+  interface.cpp
+  roboticskin.cpp
+  segment.cpp
+  sensor.cpp
+  Source.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\numeric(35,26): warning C4244: '=': conversion from '_Ty' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\numeric(44): message : see reference to function template instantiation '_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Array_iterator<double,28>,
+              _Fn=std::plus<void>
+          ]
+E:\roboticSkinsComputationalFramework\roboticSkinsComputationalFramework\Source.cpp(143): message : see reference to function template instantiation '_Ty std::accumulate<std::_Array_iterator<double,28>,int>(const _InIt,const _InIt,_Ty)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Array_iterator<double,28>
+          ]
+  substrate.cpp
+  wholesystem.cpp
+  Generating Code...
+  roboticSkinsComputationalFramework.vcxproj -> E:\roboticSkinsComputationalFramework\Debug\roboticSkinsComputationalFramework.exe
